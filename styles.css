@@ -4,6 +4,7 @@
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
     --fonte-principal: 'Inter', sans-serif;
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -64,4 +65,120 @@ body {
 
 .container__caixa {
     margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 90%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 20em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.terciario {
+    align-items: center;
+    margin: 0 20em;
+}
+
+.container__terciario__descricao {
+    margin-right: 0.8em;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+.terciario__imagem {
+    width: 90%;
+}
+
+.container__terciario__botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-primario);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-primario);
+    font-weight: 700;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-primario);
+    font-weight: 700;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo {
+    width: 5%;
+    margin-top: 5em;
+}
+
+.rodape__lista__link {
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.rodape__lista__link a {
+    text-decoration: none;
+    color: var(--branco-primario);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.rodape__texto, .rodape__texto-sec  {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2em;
+    margin: 0 25em;
+}
+
+.rodape__texto-sec {
+    margin: 1em 25em;
+    margin-bottom: 5em;
+    margin-top: 1em;
+}
+
+.rodape__lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.rodape__lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
 }
